@@ -39,7 +39,7 @@ The resulting Power BI model follows a star schema of 11 tables.
 
 - **Profit fell much faster than revenue.** Revenue grew 47% between 2021 and 2023, then fell only 10% by 2025. Over the same two years, EBIT fell 62% (from €4.02bn to €1.54bn) and the EBIT margin went from 24.6% to 10.5%.
 - **Infineon depends more and more on Automotive and China.** Automotive now generates half of group revenue (50.5% in 2025, vs 43.8% in 2021) and stays the most profitable segment. Greater China accounts for 38% of revenue and was the only region to grow in 2025 (+8.8%). Industrial (Green Industrial Power) and Connected Secure Systems saw their margins collapse.
-- **2025 was an investment year financed by debt.** Free cash flow turned negative (−€1.05bn). Financial debt rose 42% to €6.83bn and RoCE fell to 4.9%. The balance sheet remains solid, with a 56% equity ratio.
+- **2025 was an investment year financed by debt.** Free cash flow turned negative (−€1.05bn). Financial debt rose 42% to €6.83bn and RoCE fell to 4.9%. 
 
 ## Insights Deep Dive
 
