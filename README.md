@@ -10,7 +10,7 @@ Insights and recommendations are provided on the following key areas:
 - **Category 3:** Profitability & Cost Structure
 - **Category 4:** Cash Flow & Financial Position
 
-The data came from Infineon Financial Data 2021-2025 which can be found here `2025-infineon-financial-data-2021-2025-v01-00-en.pdf`
+The data came from Infineon's [Financial Data 2021–2025](https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-infineon-financial-data-2021-2025-v01-00-en.pdf) report.
 
 An interactive Power BI dashboard used to report and explore the financial performance of the company can be found here [Download the Power BI file (.pbix)](Infineon_dashboard.pbix).
 
