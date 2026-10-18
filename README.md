@@ -33,6 +33,8 @@ The resulting Power BI model follows a star schema of 11 tables.
 - About 25 measures (Revenue, EBIT, Free Cash Flow…) display amounts in € billions.
 - **Ratios are recalculated, never summed.** When several years are selected, the EBIT margin is computed as total EBIT / total revenue instead of the sum of annual margins (which wrongly gave 83%). RoCE uses a simple average because capital employed is not included in the Financial Data 2021–2025 dataset used for the dashboard.
 
+![Power BI data model](Schema.png)
+
 ## Executive Summary
 
 - **Profit fell much faster than revenue.** Revenue grew 47% between 2021 and 2023, then fell only 10% by 2025. Over the same two years, EBIT fell 62% (from €4.02bn to €1.54bn) and the EBIT margin went from 24.6% to 10.5%.
@@ -48,6 +50,8 @@ The resulting Power BI model follows a star schema of 11 tables.
 - **Automotive is the largest segment every year**, and its share of group revenue grew from 44% in 2021 to 50% in 2025.
 - **Free cash flow became negative in 2025** (−€1.05bn) for the first time in the period, after €1.57bn in 2021 and a barely positive €23m in 2024 (see Category 4).
 
+![Dashboard overview](overview.png)
+
 ### Category 2: Segment & Geographic Performance
 
 - **Segment ranking:** Automotive is number one every year, followed by Power & Sensor Systems. Green Industrial Power ranks third in every year except 2022, when Connected Secure Systems briefly overtook it (€1.82bn vs €1.79bn).
@@ -57,6 +61,8 @@ The resulting Power BI model follows a star schema of 11 tables.
   - Connected Secure Systems fell from 23.9% to 10.9%.
 - **Geography:** Greater China is the largest region every year, with €5.58bn in 2025 (38% of revenue), €4.21bn of which comes from Mainland China and Hong Kong. Europe, Middle East and Africa is second with €3.49bn (24%), of which Germany is €1.44bn (10%). In 2025, Greater China was the only region to grow (+8.8%). EMEA (−10%), Japan (−13%) and the Americas (−8%) all declined.
 
+![Segment and geographic performance](segment_geography.png)
+
 ### Category 3: Profitability & Cost Structure
 
 - From 2021 to 2023, revenue rose 47% and operating profit rose 169% (from €1.47bn to €3.95bn). From 2023 to 2025, revenue fell 10% and operating profit fell 62% (to €1.52bn).
@@ -64,12 +70,16 @@ The resulting Power BI model follows a star schema of 11 tables.
 - R&D rose every year, from €1.45bn in 2021 to €2.23bn in 2025 (+54%), reaching 15.2% of revenue in 2025 (vs 12.2% in 2023). In 2025, gross R&D spending was almost stable (+1%, to €2.66bn), but Infineon received fewer public grants (€179m vs €215m, −17%), which explains about half of the €66m increase in reported R&D expenses. R&D headcount also grew 6% to 13,998 employees, partly because of the acquisition of Marvell’s Automotive Ethernet business. Investments include new manufacturing technologies, such as in-house 300-millimeter production of gallium nitride (GaN) semiconductors.
 - SG&A remained stable at around €1.55–1.60bn per year since 2022 (10.8% of revenue in 2025). Other operating income and expense swung from a €119m gain in 2023 to a €429m charge in 2025.
 
+![Profitability and cost structure](profitability_cost%20structure.png)
+
 ### Category 4: Cash Flow & Financial Position
 
 - Debt was high in 2021 (€6.59bn), was paid down to €4.73bn in 2023, and then rose to €6.83bn in 2025 (+42% vs 2024). The net cash position worsened from −€1.14bn in 2023 to −€4.73bn in 2025.
 - **Free Cash Flow dropped because Investing outflows doubled.** Cash outflows from investing activities rose by €2.41bn to €4.57bn in 2025, mainly because of the €2.18bn purchase price paid for Marvell’s Automotive Ethernet business.
 - **Large investment financed by debt.** 2025 is the only year with a positive financing cash flow (+€920m).
 - RoCE peaked at 16.6% in 2023 and fell to 4.9% in 2025, the lowest of the period. In 2025, the return side fell (profit from continuing operations before interest down €688m, to €1.17bn), mainly because of sales price reductions and higher underutilization costs. At the same time, capital employed rose by €1.81bn to €23.60bn, mainly because of the Marvell acquisition. The equity ratio was highest in 2023–2024 (≈ 60%) and remains solid at 56.0% in 2025.
+
+![Cash flow and financial position](cash%20flow_financial%20position.png)
 
 ## Recommendations
 
